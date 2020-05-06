@@ -10,15 +10,57 @@ nav{
 	background-color: #4d636f ;
 }
 
-.nav-btnGroup{
+.menu{
+	display: flex;
+}
+
+.logo{
+	background-color: #3a4b53;
+	line-height: 50px;
+}
+.fa-home{
+	padding: 0 20px;
+}
+
+.logo:hover{
+	background-color: #ccc;
+}
+.logo:hover a{
+	color: #000;
+}
+
+.logo a{
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo h3{
+	padding-right: 20px;
+}
+.nav-menu{
 	float: left;
-	display: inline-block;
+	display: flex;
 	line-height: 50px;
 }
 
-.nav-btnGroup a{
-	
+.nav-menu li{
+	padding: 0 10px;
+}
+
+.nav-menu a{
 	color: #fff;
 	font-size: 18px;
 	padding:12px  
+}
+.profile{
+	line-height: 50px;
+	display: block;
+	float: right;
+}
+.profile img{
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
 }
