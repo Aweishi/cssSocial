@@ -2,6 +2,7 @@
 	margin:0;
 	padding:0;
 	list-style:none;
+	font-family: "Open Sans", sans-serif;
 }
 
 nav{
@@ -18,7 +19,7 @@ nav{
 	background-color: #3a4b53;
 	line-height: 50px;
 }
-.fa-home{
+nav .fa-home{
 	padding: 0 20px;
 }
 
@@ -54,13 +55,58 @@ nav{
 	font-size: 18px;
 	padding:12px  
 }
-.profile{
+.nav_avater{
 	line-height: 50px;
 	display: block;
 	float: right;
 }
-.profile img{
+.nav_avater img{
 	width: 23px;
 	height: 23px;
 	border-radius: 50%;
+}
+
+main{
+	width: 1200px;
+	margin: auto;
+}
+
+.w3{
+	width: 30%;
+}
+
+.profile{
+
+}
+
+.profile h2{
+	font-size: 20px;
+}
+
+.avater{
+	width: 90%;
+	border-bottom: 1px solid #5a6170;
+}
+
+.avater img{
+	width: 106px;
+	height: 106px;
+	border-radius: 50%;
+}
+
+.profile_info {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+.profile li{
+	display: flex;
+
+}
+
+.profile_info i{
+
+	padding: 0 10px;
+
 }
