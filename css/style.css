@@ -3,6 +3,7 @@
 	padding:0;
 	list-style:none;
 	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
 }
 
 nav{
@@ -11,13 +12,14 @@ nav{
 	background-color: #4d636f ;
 }
 
-.menu{
-	display: flex;
+html{
+	background-color: rgb(245,247,248);
 }
-
 .logo{
 	background-color: #3a4b53;
 	line-height: 50px;
+	display: flex;
+	float: left;
 }
 nav .fa-home{
 	padding: 0 20px;
@@ -59,6 +61,7 @@ nav .fa-home{
 	line-height: 50px;
 	display: block;
 	float: right;
+	padding-right: 50px;
 }
 .nav_avater img{
 	width: 23px;
@@ -68,45 +71,86 @@ nav .fa-home{
 
 main{
 	width: 1200px;
-	margin: auto;
+	margin: 30px auto;
 }
 
 .w3{
 	width: 30%;
 }
+.w6{
+	width: 60%;
+}
+
+.box{
+	border-radius: 5px;
+	box-shadow: 3px 3px #ccc;
+}
 
 .profile{
+	float: left;
+	background-color: #fff;
+	padding: 50px;
 
 }
 
 .profile h2{
 	font-size: 20px;
 }
-
-.avater{
-	width: 90%;
-	border-bottom: 1px solid #5a6170;
+.profile_divideline{
+	width: 100%;
+	height: 1px;
+	margin: 5px 0;
+	background-color: #aaa;
 }
-
+.avater{
+	width: 100%;
+	text-align: center;
+}
 .avater img{
+	margin: 10px 0;
 	width: 106px;
 	height: 106px;
 	border-radius: 50%;
+
 }
 
-.profile_info {
-	display: block;
-	width: 100%;
-	margin: auto;
-}
 
 .profile li{
 	display: flex;
+	padding-top: 10px;
 
 }
 
+.profile_info{
+	padding: 10px 0;
+}
+
 .profile_info i{
+	color: #7d97a5;
 
-	padding: 0 10px;
+	padding: 0 20px;
 
+}
+
+
+.post_area{
+	margin-left: 20px;
+	padding: 20px;
+	float: left;
+	background-color: #fff;
+}
+
+.post_area input:nth-child(2) {
+	font-size: 15px;
+	display: block;
+	width: 100%;
+	padding: 10px;
+}
+
+.post_area input:nth-child(3) {
+	background-color: rgb(96, 125, 139);
+	font-size: 15px;
+	display: block;
+	width: 100%;
+	padding: 10px;
 }
